@@ -1,0 +1,52 @@
+body{
+    background-color: blanchedalmond;
+}
+#count-text{
+    font-size:500px;
+    text-align: center;
+    margin: auto;
+}
+#count{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.buttons{
+    position: relative;
+    justify-content:center;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.wide{
+    width:100px;
+    border-radius:10px;
+    height:40px;
+}
+#reset{
+    visibility: hidden;
+}
+#text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+#day{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkorchid;
+    text-align: center;
+    font-size:150px;
+    height: max-content;
+}
+
+#reset:hover
+{
+background-image:none;
+background-color:#a4ccfa;
+}
+#start:hover
+{
+background-image:none;
+background-color:#a4ccfa;
+}
